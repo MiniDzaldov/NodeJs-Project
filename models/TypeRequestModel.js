@@ -12,5 +12,5 @@ const TypeRequestSchema = new Schema({
   volunteerCode: String
 });
 
-const TypeRequestModel = mongoose.model("statuses", TypeRequestSchema);
+const TypeRequestModel = mongoose.model("typeRequests", TypeRequestSchema);
 export default TypeRequestModel;

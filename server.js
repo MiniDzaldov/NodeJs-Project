@@ -9,6 +9,7 @@ const hostname = process.env.HOST_NAME;
 const port = process.env.PORT;
 
 app.use(express.json());
+
 app.use('/api/locations', locationRouter);
 
 app.use('/', (req, res) => {

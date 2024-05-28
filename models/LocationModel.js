@@ -7,7 +7,7 @@ const LocationSchema = new Schema({
     locationName: String
 });
 
-const LocationModel = mongoose.model("Location", LocationSchema);
+const LocationModel = mongoose.model("locations", LocationSchema);
 
 export default LocationModel;
 
